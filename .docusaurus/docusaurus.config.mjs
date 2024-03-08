@@ -24,7 +24,7 @@ export default {
       "title": "KUAIC Learn",
       "logo": {
         "alt": "KUAIC Logo",
-        "src": "img/logo.svg"
+        "src": "img/kuaiclogo.png"
       },
       "hideOnScroll": true,
       "items": [
@@ -96,7 +96,7 @@ export default {
               "href": "https://gitlab.com/aweframework/"
             },
             {
-              "html": "\n\t\t\t\t\t\t\t\t<a href=\"https://gitlab.com/aweframework/\" target=\"_blank\" rel=\"noreferrer noopener\" aria-label=\"Deploys by Netlify\">\n\t\t\t\t\t\t\t\t  <img src=\"https://docs.aweframework.com/img/logo.svg\" alt=\"Forked From AWE\" width=\"114\" height=\"51\" />\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t  "
+              "html": "\n\t\t\t\t\t\t\t\t<a href=\"https://gitlab.com/aweframework/\" target=\"_blank\" rel=\"noreferrer noopener\" aria-label=\"Deploys by Netlify\">\n\t\t\t\t\t\t\t\t  <img src=\"/img/logo.svg\" alt=\"Forked From AWE\" width=\"114\" height=\"51\" />\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t  "
             }
           ]
         }

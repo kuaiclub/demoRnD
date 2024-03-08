@@ -145,7 +145,7 @@ function Home() {
             <img
               alt="Awe logo"
               className={styles.heroLogo}
-              src={useBaseUrl('img/logo.svg')}
+              src={useBaseUrl('img/kuaiclogo.png')}
             />
             <span className={styles.heroTitleTextHtml}>
               <Translate id="homepage.hero.title" description="Home page hero title, can contain simple html tags"

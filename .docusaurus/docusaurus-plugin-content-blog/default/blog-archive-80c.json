@@ -42,7 +42,7 @@
           ]
         }
       },
-      "content": "<img style={{ width: \"50%\", margin: \"10% 25%\", padding: \"50\" }} \n    alt=\"Awe Logo\" \n    src={require('@docusaurus/useBaseUrl').default('img/logo.svg')}\n/>\n\nFrom `AWE` team we want to welcome you and open this new communication channel to everyone.\n\nWe will publish `AWE framework` news as well as tutorials and other interesting things related to web application development.\n\nSo, **welcome aboard!** :smile:"
+      "content": "<img style={{ width: \"50%\", margin: \"10% 25%\", padding: \"50\" }} \n    alt=\"Awe Logo\" \n    src={require('@docusaurus/useBaseUrl').default('img/kuaiclogo.png')}\n/>\n\nFrom `AWE` team we want to welcome you and open this new communication channel to everyone.\n\nWe will publish `AWE framework` news as well as tutorials and other interesting things related to web application development.\n\nSo, **welcome aboard!** :smile:"
     }
   ]
 }

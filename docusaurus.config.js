@@ -17,7 +17,7 @@ module.exports = {
 			title: 'KUAIC Learn',
 			logo: {
 				alt: 'KUAIC Logo',
-				src: 'img/logo.svg',
+				src: 'img/kuaiclogo.png',
 				// srcDark: 'img/logo white.svg'
 			},
 			hideOnScroll: true,
