@@ -15,9 +15,10 @@ $ yarn
 
 ```
 $ yarn start
+$ yarn start --locale np 
 ```
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server. and 'np' will load the nepali version 
 
 ### Build
 

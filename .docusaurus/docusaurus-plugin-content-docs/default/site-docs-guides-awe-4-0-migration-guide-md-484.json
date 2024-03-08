@@ -6,7 +6,7 @@
   "source": "@site/docs/guides/awe-4.0-migration-guide.md",
   "sourceDirName": "guides",
   "slug": "/guides/v4-migration",
-  "permalink": "/docs/next/guides/v4-migration",
+  "permalink": "/docs/guides/v4-migration",
   "draft": false,
   "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/guides/awe-4.0-migration-guide.md",
   "tags": [],
@@ -20,12 +20,8 @@
     "sidebar_label": "v4.0 Migration Guide"
   },
   "sidebar": "docs",
-  "previous": {
-    "title": "Validation",
-    "permalink": "/docs/next/guides/validation"
-  },
   "next": {
-    "title": "Default screens",
-    "permalink": "/docs/next/guides/default-screens"
+    "title": "Accordion",
+    "permalink": "/docs/api/accordion"
   }
 }

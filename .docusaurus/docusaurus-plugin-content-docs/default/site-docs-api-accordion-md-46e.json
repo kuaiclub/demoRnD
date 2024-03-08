@@ -6,7 +6,7 @@
   "source": "@site/docs/api/accordion.md",
   "sourceDirName": "api",
   "slug": "/api/accordion",
-  "permalink": "/docs/next/api/accordion",
+  "permalink": "/docs/api/accordion",
   "draft": false,
   "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/api/accordion.md",
   "tags": [],
@@ -18,13 +18,5 @@
     "id": "accordion",
     "title": "Accordion"
   },
-  "sidebar": "screens",
-  "previous": {
-    "title": "Wizard and Wizard panel",
-    "permalink": "/docs/next/api/wizard-and-wizard-panel"
-  },
-  "next": {
-    "title": "Grids",
-    "permalink": "/docs/next/api/grids"
-  }
+  "sidebar": "screens"
 }

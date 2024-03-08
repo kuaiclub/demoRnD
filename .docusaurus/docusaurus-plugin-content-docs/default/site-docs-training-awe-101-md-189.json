@@ -6,7 +6,7 @@
   "source": "@site/docs/training/awe-101.md",
   "sourceDirName": "training",
   "slug": "/training/awe-101",
-  "permalink": "/docs/next/training/awe-101",
+  "permalink": "/docs/training/awe-101",
   "draft": false,
   "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/training/awe-101.md",
   "tags": [],
@@ -19,9 +19,5 @@
     "title": "awe-101 Your first AWE App",
     "sidebar_label": "awe-101 Your first AWE App"
   },
-  "sidebar": "training",
-  "next": {
-    "title": "awe-102 Windows design",
-    "permalink": "/docs/next/training/awe-102"
-  }
+  "sidebar": "training"
 }

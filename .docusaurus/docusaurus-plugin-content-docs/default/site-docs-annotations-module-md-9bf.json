@@ -6,7 +6,7 @@
   "source": "@site/docs/annotations-module.md",
   "sourceDirName": ".",
   "slug": "/annotations",
-  "permalink": "/docs/next/annotations",
+  "permalink": "/docs/annotations",
   "draft": false,
   "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/annotations-module.md",
   "tags": [],
@@ -18,14 +18,5 @@
     "id": "annotations",
     "title": "Annotations Module",
     "sidebar_label": "Annotations Module"
-  },
-  "sidebar": "docs",
-  "previous": {
-    "title": "Maven",
-    "permalink": "/docs/next/maven"
-  },
-  "next": {
-    "title": "Developer Module",
-    "permalink": "/docs/next/developer"
   }
 }
