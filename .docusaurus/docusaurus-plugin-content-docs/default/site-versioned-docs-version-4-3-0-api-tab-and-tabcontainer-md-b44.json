@@ -1,0 +1,30 @@
+{
+  "unversionedId": "api/tab-and-tabcontainer",
+  "id": "version-4.3.0/api/tab-and-tabcontainer",
+  "title": "Tab and tabcontainer",
+  "description": "A tab is a very useful screen component to separate the screen components in tabs:",
+  "source": "@site/versioned_docs/version-4.3.0/api/tab-and-tabcontainer.md",
+  "sourceDirName": "api",
+  "slug": "/api/tab-and-tabcontainer",
+  "permalink": "/docs/api/tab-and-tabcontainer",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/api/tab-and-tabcontainer.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "tab-and-tabcontainer",
+    "title": "Tab and tabcontainer"
+  },
+  "sidebar": "version-4.3.0/screens",
+  "previous": {
+    "title": "Criteria",
+    "permalink": "/docs/api/criteria"
+  },
+  "next": {
+    "title": "Wizard and Wizard panel",
+    "permalink": "/docs/api/wizard-and-wizard-panel"
+  }
+}

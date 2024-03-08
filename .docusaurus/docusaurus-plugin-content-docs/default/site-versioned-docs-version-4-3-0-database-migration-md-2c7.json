@@ -1,0 +1,30 @@
+{
+  "unversionedId": "database-migration",
+  "id": "version-4.3.0/database-migration",
+  "title": "Database migration",
+  "description": "AWE uses Flyway as default tool for database script version control.",
+  "source": "@site/versioned_docs/version-4.3.0/database-migration.md",
+  "sourceDirName": ".",
+  "slug": "/database-migration",
+  "permalink": "/docs/database-migration",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/database-migration.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "database-migration",
+    "title": "Database migration"
+  },
+  "sidebar": "version-4.3.0/docs",
+  "previous": {
+    "title": "Notifier Module",
+    "permalink": "/docs/notifier"
+  },
+  "next": {
+    "title": "Properties",
+    "permalink": "/docs/properties"
+  }
+}

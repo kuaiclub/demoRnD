@@ -2,10 +2,10 @@
   "defaultLocale": "en",
   "locales": [
     "en",
-    "es"
+    "np"
   ],
   "path": "i18n",
-  "currentLocale": "es",
+  "currentLocale": "en",
   "localeConfigs": {
     "en": {
       "label": "English",
@@ -14,12 +14,12 @@
       "calendar": "gregory",
       "path": "en"
     },
-    "es": {
-      "label": "Español",
+    "np": {
+      "label": "Nepali",
       "direction": "ltr",
-      "htmlLang": "es",
+      "htmlLang": "np",
       "calendar": "gregory",
-      "path": "es"
+      "path": "np"
     }
   }
 }

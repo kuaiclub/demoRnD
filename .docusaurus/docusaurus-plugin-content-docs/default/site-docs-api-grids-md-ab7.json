@@ -1,0 +1,30 @@
+{
+  "unversionedId": "api/grids",
+  "id": "api/grids",
+  "title": "Grids",
+  "description": "Grids are the main component in AWE to show data lists. It is defined by grid and columns:",
+  "source": "@site/docs/api/grids.md",
+  "sourceDirName": "api",
+  "slug": "/api/grids",
+  "permalink": "/docs/next/api/grids",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/api/grids.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "grids",
+    "title": "Grids"
+  },
+  "sidebar": "screens",
+  "previous": {
+    "title": "Accordion",
+    "permalink": "/docs/next/api/accordion"
+  },
+  "next": {
+    "title": "Pivot Table",
+    "permalink": "/docs/next/api/pivot-table"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "unversionedId": "architecture",
+  "id": "architecture",
+  "title": "Architecture",
+  "description": "Table of Contents",
+  "source": "@site/docs/architecture.md",
+  "sourceDirName": ".",
+  "slug": "/architecture",
+  "permalink": "/docs/next/architecture",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/architecture.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "architecture",
+    "title": "Architecture",
+    "sidebar_label": "Architecture"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Purpose",
+    "permalink": "/docs/next/purpose"
+  },
+  "next": {
+    "title": "Security",
+    "permalink": "/docs/next/security"
+  }
+}

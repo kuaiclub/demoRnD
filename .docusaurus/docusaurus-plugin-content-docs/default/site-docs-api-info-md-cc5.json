@@ -1,0 +1,30 @@
+{
+  "unversionedId": "api/info",
+  "id": "api/info",
+  "title": "Navigation Bar",
+  "description": "The navigation bar is used to add visual elements with logic functions in the top zone of application. This part is displayed in all application screens.",
+  "source": "@site/docs/api/info.md",
+  "sourceDirName": "api",
+  "slug": "/api/info",
+  "permalink": "/docs/next/api/info",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/api/info.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "info",
+    "title": "Navigation Bar"
+  },
+  "sidebar": "screens",
+  "previous": {
+    "title": "Messages",
+    "permalink": "/docs/next/api/messages"
+  },
+  "next": {
+    "title": "Include",
+    "permalink": "/docs/next/api/include"
+  }
+}

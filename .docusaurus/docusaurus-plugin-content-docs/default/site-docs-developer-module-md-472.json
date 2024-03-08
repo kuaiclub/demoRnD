@@ -1,0 +1,31 @@
+{
+  "unversionedId": "developer",
+  "id": "developer",
+  "title": "DevTools Module",
+  "description": "This module has some very useful management tools to manage literals:",
+  "source": "@site/docs/developer-module.md",
+  "sourceDirName": ".",
+  "slug": "/developer",
+  "permalink": "/docs/next/developer",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/developer-module.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "developer",
+    "title": "DevTools Module",
+    "sidebar_label": "Developer Module"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Annotations Module",
+    "permalink": "/docs/next/annotations"
+  },
+  "next": {
+    "title": "DevTools Module",
+    "permalink": "/docs/next/developer-tools"
+  }
+}

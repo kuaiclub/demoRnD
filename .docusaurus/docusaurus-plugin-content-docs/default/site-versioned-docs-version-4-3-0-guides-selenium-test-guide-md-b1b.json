@@ -1,0 +1,30 @@
+{
+  "unversionedId": "guides/selenium-testing",
+  "id": "version-4.3.0/guides/selenium-testing",
+  "title": "Selenium Tests",
+  "description": "This document gives a basic insight on how to start developing Selenium tests for applications developed with AWE. Before starting test development, make sure to read the Selenium Test Development Guide, specially the Optimization/Help tips section. Basic aspects you should know before starting to develop Selenium tests, such as general configurations and integration with Jenkins, are not treated in this document.",
+  "source": "@site/versioned_docs/version-4.3.0/guides/selenium-test-guide.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/selenium-testing",
+  "permalink": "/docs/guides/selenium-testing",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/guides/selenium-test-guide.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "selenium-testing",
+    "title": "Selenium Tests"
+  },
+  "sidebar": "version-4.3.0/docs",
+  "previous": {
+    "title": "Notifications",
+    "permalink": "/docs/guides/notifier"
+  },
+  "next": {
+    "title": "Print engine",
+    "permalink": "/docs/guides/print-engine"
+  }
+}

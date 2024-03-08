@@ -1,0 +1,30 @@
+{
+  "unversionedId": "training/awe-104",
+  "id": "version-4.3.0/training/awe-104",
+  "title": "awe-104 Data retrieval and manipulation",
+  "description": "The retrieval of data using AWE can be done from different sources: enumerated, queries, queues, services (Java and C), etc. This helps the integration of client side with the bussiness logic hosted in the server.",
+  "source": "@site/versioned_docs/version-4.3.0/training/awe-104.md",
+  "sourceDirName": "training",
+  "slug": "/training/awe-104",
+  "permalink": "/docs/training/awe-104",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/training/awe-104.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "awe-104",
+    "title": "awe-104 Data retrieval and manipulation"
+  },
+  "sidebar": "version-4.3.0/training",
+  "previous": {
+    "title": "awe-103 Criteria, grids and charts",
+    "permalink": "/docs/training/awe-103"
+  },
+  "next": {
+    "title": "awe-105 Develop module",
+    "permalink": "/docs/training/awe-105"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "unversionedId": "api/include",
+  "id": "version-4.3.0/api/include",
+  "title": "Include",
+  "description": "An include is a component which allows you to pick a screen piece and place it inside another screen. It's very useful to reuse a piece of code between screens.",
+  "source": "@site/versioned_docs/version-4.3.0/api/include.md",
+  "sourceDirName": "api",
+  "slug": "/api/include",
+  "permalink": "/docs/api/include",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/api/include.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "include",
+    "title": "Include"
+  },
+  "sidebar": "version-4.3.0/screens",
+  "previous": {
+    "title": "Navigation Bar",
+    "permalink": "/docs/api/info"
+  },
+  "next": {
+    "title": "Dialog",
+    "permalink": "/docs/api/dialog"
+  }
+}

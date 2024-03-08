@@ -1,0 +1,21 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "AWE get Spring Boot 3",
+      "permalink": "/blog/2023/09/08/awe-spring-boot-3"
+    },
+    {
+      "title": "Two-factor authentication",
+      "permalink": "/blog/2022/02/24/two-factor-authentication"
+    },
+    {
+      "title": "Notification module",
+      "permalink": "/blog/2021/01/01/notification-module"
+    },
+    {
+      "title": "Welcome to AWE Blog",
+      "permalink": "/blog/2020/08/26/welcome"
+    }
+  ]
+}

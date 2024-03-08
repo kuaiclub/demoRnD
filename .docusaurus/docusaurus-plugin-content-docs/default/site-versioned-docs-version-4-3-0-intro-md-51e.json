@@ -1,0 +1,28 @@
+{
+  "unversionedId": "intro",
+  "id": "version-4.3.0/intro",
+  "title": "Almis Web Engine",
+  "description": "AWE is a light-weight Java web framework. Allows you build web applications in the fastest way.",
+  "source": "@site/versioned_docs/version-4.3.0/intro.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/intro.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "intro",
+    "title": "Almis Web Engine",
+    "sidebar_label": "Introduction",
+    "slug": "/"
+  },
+  "sidebar": "version-4.3.0/docs",
+  "next": {
+    "title": "Purpose",
+    "permalink": "/docs/purpose"
+  }
+}

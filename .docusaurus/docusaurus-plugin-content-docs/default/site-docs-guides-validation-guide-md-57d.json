@@ -1,0 +1,31 @@
+{
+  "unversionedId": "guides/validation",
+  "id": "guides/validation",
+  "title": "Validation",
+  "description": "The validation action checks the conditions of each criterion with a value under the validation attribute. This action is related with a validate type button (see button actions).",
+  "source": "@site/docs/guides/validation-guide.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/validation",
+  "permalink": "/docs/next/guides/validation",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/guides/validation-guide.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "validation",
+    "title": "Validation",
+    "sidebar_label": "Validation"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Debugging",
+    "permalink": "/docs/next/guides/debugging"
+  },
+  "next": {
+    "title": "v4.0 Migration Guide",
+    "permalink": "/docs/next/guides/v4-migration"
+  }
+}

@@ -4,46 +4,230 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Moja Global Community",
-  "tagline": "Learn about moja global's projects and join our ever-growing community",
-  "url": "https://community.moja.global",
-  "baseUrl": "/es/",
-  "onBrokenLinks": "ignore",
-  "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/favicon.ico",
-  "organizationName": "moja global",
-  "projectName": "Community Website",
-  "i18n": {
-    "defaultLocale": "en",
-    "locales": [
-      "en",
-      "es"
-    ],
-    "path": "i18n",
-    "localeConfigs": {}
-  },
+  "title": "KUAIC Learn",
+  "tagline": "Resources for AI in Python",
+  "url": "https://aiclub.ku.edu.np",
+  "baseUrl": "/",
+  "onBrokenLinks": "throw",
+  "favicon": "icon/favicon.ico",
+  "organizationName": "KUAIC",
+  "projectName": "rnd",
   "themeConfig": {
+    "docs": {
+      "sidebar": {
+        "hideable": true,
+        "autoCollapseCategories": false
+      },
+      "versionPersistence": "localStorage"
+    },
+    "navbar": {
+      "title": "KUAIC Learn",
+      "logo": {
+        "alt": "KUAIC Logo",
+        "src": "img/logo.svg"
+      },
+      "hideOnScroll": true,
+      "items": [
+        {
+          "type": "docsVersion",
+          "position": "left",
+          "label": "Docs"
+        },
+        {
+          "type": "localeDropdown",
+          "position": "right",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
+        },
+        {
+          "type": "doc",
+          "docId": "training/awe-101",
+          "position": "left",
+          "label": "Training",
+          "activeSidebarClassName": "navbar__link--active"
+        },
+        {
+          "to": "blog",
+          "label": "Blog",
+          "position": "left"
+        },
+        {
+          "alt": "Github repository",
+          "href": "https://github.com/KUAICLUB",
+          "className": "header-gitlab-link",
+          "position": "right"
+        }
+      ]
+    },
+    "footer": {
+      "style": "dark",
+      "links": [
+        {
+          "title": "Docs",
+          "items": [
+            {
+              "label": "Introduction",
+              "to": "docs/"
+            },
+            {
+              "label": "Migration from v3 to v4",
+              "to": "docs/guides/v4-migration"
+            }
+          ]
+        },
+        {
+          "title": "Community",
+          "items": [
+            {
+              "label": "Discord",
+              "href": "https://discord.gg/UNnXrsKM"
+            }
+          ]
+        },
+        {
+          "title": "More",
+          "items": [
+            {
+              "label": "Github repository",
+              "href": "https://github.com/kuaiclub"
+            },
+            {
+              "label": "Forked repository",
+              "href": "https://gitlab.com/aweframework/"
+            },
+            {
+              "html": "\n\t\t\t\t\t\t\t\t<a href=\"https://gitlab.com/aweframework/\" target=\"_blank\" rel=\"noreferrer noopener\" aria-label=\"Deploys by Netlify\">\n\t\t\t\t\t\t\t\t  <img src=\"https://docs.aweframework.com/img/logo.svg\" alt=\"Forked From AWE\" width=\"114\" height=\"51\" />\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t  "
+            }
+          ]
+        }
+      ],
+      "copyright": "Copyright © 2024 Kathmandu University Artificial Intelligence Club, DoCSE, Kathmandu University"
+    },
     "algolia": {
-      "appId": "",
-      "apiKey": "",
-      "indexName": ""
+      "appId": "96SFT7IGN3",
+      "apiKey": "87dfe5f6a5c7cf165a000b9b90539407",
+      "indexName": "your_index_name",
+      "contextualSearch": true,
+      "searchParameters": {},
+      "searchPagePath": "search"
+    },
+    "colorMode": {
+      "defaultMode": "dark",
+      "disableSwitch": false,
+      "respectPrefersColorScheme": true
     },
     "prism": {
+      "additionalLanguages": [
+        "python"
+      ],
       "theme": {
         "plain": {
-          "color": "#393A34",
-          "backgroundColor": "#f6f8fa"
+          "color": "#bfc7d5",
+          "backgroundColor": "#292d3e"
         },
         "styles": [
           {
             "types": [
-              "comment",
-              "prolog",
-              "doctype",
-              "cdata"
+              "comment"
             ],
             "style": {
-              "color": "#999988",
+              "color": "rgb(105, 112, 152)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "string",
+              "inserted"
+            ],
+            "style": {
+              "color": "rgb(195, 232, 141)"
+            }
+          },
+          {
+            "types": [
+              "number"
+            ],
+            "style": {
+              "color": "rgb(247, 140, 108)"
+            }
+          },
+          {
+            "types": [
+              "builtin",
+              "char",
+              "constant",
+              "function"
+            ],
+            "style": {
+              "color": "rgb(130, 170, 255)"
+            }
+          },
+          {
+            "types": [
+              "punctuation",
+              "selector"
+            ],
+            "style": {
+              "color": "rgb(199, 146, 234)"
+            }
+          },
+          {
+            "types": [
+              "variable"
+            ],
+            "style": {
+              "color": "rgb(191, 199, 213)"
+            }
+          },
+          {
+            "types": [
+              "class-name",
+              "attr-name"
+            ],
+            "style": {
+              "color": "rgb(255, 203, 107)"
+            }
+          },
+          {
+            "types": [
+              "tag",
+              "deleted"
+            ],
+            "style": {
+              "color": "rgb(255, 85, 114)"
+            }
+          },
+          {
+            "types": [
+              "operator"
+            ],
+            "style": {
+              "color": "rgb(137, 221, 255)"
+            }
+          },
+          {
+            "types": [
+              "boolean"
+            ],
+            "style": {
+              "color": "rgb(255, 88, 116)"
+            }
+          },
+          {
+            "types": [
+              "keyword"
+            ],
+            "style": {
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "doctype"
+            ],
+            "style": {
+              "color": "rgb(199, 146, 234)",
               "fontStyle": "italic"
             }
           },
@@ -52,640 +236,83 @@ export default {
               "namespace"
             ],
             "style": {
-              "opacity": 0.7
+              "color": "rgb(178, 204, 214)"
             }
           },
           {
             "types": [
-              "string",
-              "attr-value"
+              "url"
             ],
             "style": {
-              "color": "#e3116c"
-            }
-          },
-          {
-            "types": [
-              "punctuation",
-              "operator"
-            ],
-            "style": {
-              "color": "#393A34"
-            }
-          },
-          {
-            "types": [
-              "entity",
-              "url",
-              "symbol",
-              "number",
-              "boolean",
-              "variable",
-              "constant",
-              "property",
-              "regex",
-              "inserted"
-            ],
-            "style": {
-              "color": "#36acaa"
-            }
-          },
-          {
-            "types": [
-              "atrule",
-              "keyword",
-              "attr-name",
-              "selector"
-            ],
-            "style": {
-              "color": "#00a4db"
-            }
-          },
-          {
-            "types": [
-              "function",
-              "deleted",
-              "tag"
-            ],
-            "style": {
-              "color": "#d73a49"
-            }
-          },
-          {
-            "types": [
-              "function-variable"
-            ],
-            "style": {
-              "color": "#6f42c1"
-            }
-          },
-          {
-            "types": [
-              "tag",
-              "selector",
-              "keyword"
-            ],
-            "style": {
-              "color": "#00009f"
+              "color": "rgb(221, 221, 221)"
             }
           }
         ]
       },
-      "darkTheme": {
-        "plain": {
-          "color": "#F8F8F2",
-          "backgroundColor": "#282A36"
-        },
-        "styles": [
-          {
-            "types": [
-              "prolog",
-              "constant",
-              "builtin"
-            ],
-            "style": {
-              "color": "rgb(189, 147, 249)"
-            }
-          },
-          {
-            "types": [
-              "inserted",
-              "function"
-            ],
-            "style": {
-              "color": "rgb(80, 250, 123)"
-            }
-          },
-          {
-            "types": [
-              "deleted"
-            ],
-            "style": {
-              "color": "rgb(255, 85, 85)"
-            }
-          },
-          {
-            "types": [
-              "changed"
-            ],
-            "style": {
-              "color": "rgb(255, 184, 108)"
-            }
-          },
-          {
-            "types": [
-              "punctuation",
-              "symbol"
-            ],
-            "style": {
-              "color": "rgb(248, 248, 242)"
-            }
-          },
-          {
-            "types": [
-              "string",
-              "char",
-              "tag",
-              "selector"
-            ],
-            "style": {
-              "color": "rgb(255, 121, 198)"
-            }
-          },
-          {
-            "types": [
-              "keyword",
-              "variable"
-            ],
-            "style": {
-              "color": "rgb(189, 147, 249)",
-              "fontStyle": "italic"
-            }
-          },
-          {
-            "types": [
-              "comment"
-            ],
-            "style": {
-              "color": "rgb(98, 114, 164)"
-            }
-          },
-          {
-            "types": [
-              "attr-name"
-            ],
-            "style": {
-              "color": "rgb(241, 250, 140)"
-            }
-          }
-        ]
-      },
-      "code_themes": {
-        "light": {
-          "plain": {
-            "color": "#393A34",
-            "backgroundColor": "#f6f8fa"
-          },
-          "styles": [
-            {
-              "types": [
-                "comment",
-                "prolog",
-                "doctype",
-                "cdata"
-              ],
-              "style": {
-                "color": "#999988",
-                "fontStyle": "italic"
-              }
-            },
-            {
-              "types": [
-                "namespace"
-              ],
-              "style": {
-                "opacity": 0.7
-              }
-            },
-            {
-              "types": [
-                "string",
-                "attr-value"
-              ],
-              "style": {
-                "color": "#e3116c"
-              }
-            },
-            {
-              "types": [
-                "punctuation",
-                "operator"
-              ],
-              "style": {
-                "color": "#393A34"
-              }
-            },
-            {
-              "types": [
-                "entity",
-                "url",
-                "symbol",
-                "number",
-                "boolean",
-                "variable",
-                "constant",
-                "property",
-                "regex",
-                "inserted"
-              ],
-              "style": {
-                "color": "#36acaa"
-              }
-            },
-            {
-              "types": [
-                "atrule",
-                "keyword",
-                "attr-name",
-                "selector"
-              ],
-              "style": {
-                "color": "#00a4db"
-              }
-            },
-            {
-              "types": [
-                "function",
-                "deleted",
-                "tag"
-              ],
-              "style": {
-                "color": "#d73a49"
-              }
-            },
-            {
-              "types": [
-                "function-variable"
-              ],
-              "style": {
-                "color": "#6f42c1"
-              }
-            },
-            {
-              "types": [
-                "tag",
-                "selector",
-                "keyword"
-              ],
-              "style": {
-                "color": "#00009f"
-              }
-            }
-          ]
-        },
-        "dark": {
-          "plain": {
-            "color": "#F8F8F2",
-            "backgroundColor": "#282A36"
-          },
-          "styles": [
-            {
-              "types": [
-                "prolog",
-                "constant",
-                "builtin"
-              ],
-              "style": {
-                "color": "rgb(189, 147, 249)"
-              }
-            },
-            {
-              "types": [
-                "inserted",
-                "function"
-              ],
-              "style": {
-                "color": "rgb(80, 250, 123)"
-              }
-            },
-            {
-              "types": [
-                "deleted"
-              ],
-              "style": {
-                "color": "rgb(255, 85, 85)"
-              }
-            },
-            {
-              "types": [
-                "changed"
-              ],
-              "style": {
-                "color": "rgb(255, 184, 108)"
-              }
-            },
-            {
-              "types": [
-                "punctuation",
-                "symbol"
-              ],
-              "style": {
-                "color": "rgb(248, 248, 242)"
-              }
-            },
-            {
-              "types": [
-                "string",
-                "char",
-                "tag",
-                "selector"
-              ],
-              "style": {
-                "color": "rgb(255, 121, 198)"
-              }
-            },
-            {
-              "types": [
-                "keyword",
-                "variable"
-              ],
-              "style": {
-                "color": "rgb(189, 147, 249)",
-                "fontStyle": "italic"
-              }
-            },
-            {
-              "types": [
-                "comment"
-              ],
-              "style": {
-                "color": "rgb(98, 114, 164)"
-              }
-            },
-            {
-              "types": [
-                "attr-name"
-              ],
-              "style": {
-                "color": "rgb(241, 250, 140)"
-              }
-            }
-          ]
-        }
-      },
-      "announcementBar": {
-        "id": "announcementBar",
-        "backgroundColor": "#74e8a3",
-        "isCloseable": true,
-        "content": "If you would like to contribute, give it a star on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/kuaic\">GitHub</a> ⭐ and take a look at the open issues!"
-      },
-      "colorMode": {
-        "defaultMode": "dark",
-        "switchConfig": {
-          "darkIcon": "🌙",
-          "darkIconStyle": {
-            "marginLeft": "2px"
-          },
-          "lightIcon": "💡",
-          "lightIconStyle": {
-            "marginLeft": "1px"
-          }
-        }
-      },
-      "navbar": {
-        "title": "Community",
-        "hideOnScroll": true,
-        "logo": {
-          "alt": "moja global Logo",
-          "src": "img/logo.png",
-          "srcDark": "img/logo-light.png"
-        },
-        "items": [
-          {
-            "type": "localeDropdown",
-            "position": "right"
-          },
-          {
-            "href": "https://github.com/moja-global",
-            "label": "GitHub",
-            "position": "right"
-          },
-          {
-            "to": "/roadmap",
-            "label": "Roadmap",
-            "position": "right"
-          },
-          {
-            "type": "doc",
-            "docId": "intro",
-            "position": "left",
-            "label": "Projects"
-          },
-          {
-            "to": "/blog",
-            "label": "Blogs",
-            "position": "left"
-          },
-          {
-            "to": "/community/support",
-            "label": "Community",
-            "position": "left",
-            "activeBaseRegex": "/community/"
-          },
-          {
-            "type": "dropdown",
-            "label": "Know More",
-            "position": "left",
-            "items": [
-              {
-                "label": "Initiatives",
-                "href": "/initiatives"
-              },
-              {
-                "label": "Case Studies",
-                "href": "/case-studies/introduction"
-              },
-              {
-                "label": "Tutorial",
-                "href": "/tutorial/tutorial-introduction"
-              }
-            ]
-          }
-        ]
-      },
-      "footer": {
-        "logo": {
-          "alt": "moja global light logo",
-          "src": "/img/logo-light.png",
-          "href": "https://moja.global"
-        },
-        "style": "light",
-        "links": [
-          {
-            "title": "Docs",
-            "items": [
-              {
-                "label": "FLINT",
-                "href": "https://moja.global/flint/"
-              },
-              {
-                "label": "FLINT UI",
-                "href": "https://docs.moja.global/projects/flint-ui/en/latest/"
-              },
-              {
-                "label": "FLINT Reporting Tool",
-                "href": "https://docs.moja.global/projects/flint-reporting/en/latest/"
-              },
-              {
-                "label": "Taswira",
-                "href": "https://github.com/moja-global/GCBM.Visualisation_Tool"
-              },
-              {
-                "label": "FLINT JSON Editor",
-                "href": "https://github.com/moja-global/FLINT.JSON_Interface"
-              },
-              {
-                "label": "FLINT Cloud",
-                "href": "https://docs.moja.global/projects/flintcloud/en/latest"
-              }
-            ]
-          },
-          {
-            "title": "Community",
-            "items": [
-              {
-                "label": "Projects",
-                "href": "/docs"
-              },
-              {
-                "label": "Blogs",
-                "href": "/blog"
-              },
-              {
-                "label": "Mentorship",
-                "href": "/community/mentorship"
-              },
-              {
-                "label": "Initiatives",
-                "href": "/initiatives"
-              },
-              {
-                "label": "Roadmap",
-                "href": "/roadmap"
-              },
-              {
-                "label": "Case Studies",
-                "href": "/case-studies/introduction"
-              },
-              {
-                "label": "FAQs",
-                "href": "https://docs.moja.global/en/add_instructions_gdal/faq.html"
-              }
-            ]
-          },
-          {
-            "title": "Getting Started",
-            "items": [
-              {
-                "label": "About moja global",
-                "href": "/docs/about-moja-global"
-              },
-              {
-                "label": "Governance model",
-                "href": "/community/governance"
-              },
-              {
-                "label": "Contributing guidelines",
-                "href": "/community/contributing"
-              },
-              {
-                "label": "Working Groups",
-                "href": "/community/working-groups/doc-wg"
-              }
-            ]
-          },
-          {
-            "title": "Follow Us",
-            "items": [
-              {
-                "html": "\n              <a href= 'https://twitter.com/mojaglobal' target=\"_blank\">\n              <img class=\"socials\" src=\"/img/twitter.png\" alt=\"twitter icon\" />\n              </a>\n              "
-              },
-              {
-                "html": "\n              <a href= 'https://www.youtube.com/channel/UCfQUrrNP1Xf-Fv4c8uHYXhQ' target=\"_blank\">\n              <img class=\"socials\" src=\"/img/youtube.png\" alt=\"youtube icon\" />\n              </a>\n              "
-              },
-              {
-                "html": "\n              <a href= 'https://github.com/moja-global' target=\"_blank\">\n              <img class=\"socials\" src=\"/img/github.png\" alt=\"github icon\" />\n              </a>\n              "
-              },
-              {
-                "html": "\n              <a href= 'https://www.linkedin.com/company/moja-global/' target=\"_blank\">\n              <img class=\"socials\" src=\"/img/linkedin.png\" alt=\"linkedin icon\" />\n              </a>\n              "
-              },
-              {
-                "html": "\n              <a href= 'https://mojaglobal.slack.com/' target=\"_blank\">\n              <img class=\"socials\" src=\"/img/slack.png\" alt=\"slack icon\" />\n              </a>\n              "
-              }
-            ]
-          }
-        ],
-        "copyright": "Copyright © 2024 moja global."
-      },
-      "image": "https://community.moja.global/img/logo.png",
-      "metadatas": [
+      "magicComments": [
         {
-          "name": "twitter:card",
-          "content": "summary_large_image"
-        },
-        {
-          "name": "twitter:image",
-          "content": "https://community.moja.global/img/logo.png"
-        },
-        {
-          "name": "twitter:title",
-          "content": "Moja Global Community"
-        },
-        {
-          "name": "twitter:description",
-          "content": "moja global is a not for profit, collaborative project that brings together a community of experts to develop open-source software that allows users to accurately and affordably estimate greenhouse gas emissions and removals from the AFOLU sector. The project’s members aim to support the widest possible use of credible emissions estimation software."
+          "className": "theme-code-block-highlighted-line",
+          "line": "highlight-next-line",
+          "block": {
+            "start": "highlight-start",
+            "end": "highlight-end"
+          }
         }
       ]
     },
-    "presets": [
-      [
-        "@docusaurus/preset-classic",
-        {
-          "googleAnalytics": {
-            "trackingID": "",
-            "anonymizeIP": true
-          },
-          "docs": {
-            "sidebarPath": "/Users/shivramsaud/Desktop/demoRnD/sidebars.js",
-            "editUrl": "https://github.com/moja-global/community-website/edit/main/website/"
-          },
-          "blog": {
-            "showReadingTime": true,
-            "editUrl": "https://github.com/moja-global/community-website/edit/main/website/blog/"
-          },
-          "theme": {
-            "customCss": "/Users/shivramsaud/Desktop/demoRnD/src/css/custom.css"
-          },
-          "sitemap": {
-            "changefreq": "weekly",
-            "priority": 0.5,
-            "trailingSlash": false
-          }
-        }
-      ]
-    ],
-    "plugins": [
-      [
-        "@docusaurus/plugin-content-docs",
-        {
-          "id": "community",
-          "path": "community",
-          "routeBasePath": "community",
-          "sidebarPath": "/Users/shivramsaud/Desktop/demoRnD/sidebarsCommunity.js"
-        }
-      ],
-      [
-        "@docusaurus/plugin-content-docs",
-        {
-          "id": "case-studies",
-          "path": "case-studies",
-          "routeBasePath": "case-studies",
-          "sidebarPath": "/Users/shivramsaud/Desktop/demoRnD/sidebarsCaseStudies.js"
-        }
-      ],
-      [
-        "@docusaurus/plugin-content-docs",
-        {
-          "id": "tutorial-introduction",
-          "path": "tutorial",
-          "routeBasePath": "tutorial",
-          "sidebarPath": "/Users/shivramsaud/Desktop/demoRnD/sidebarsTutorial.js"
-        }
-      ]
-    ]
+    "metadata": [],
+    "tableOfContents": {
+      "minHeadingLevel": 2,
+      "maxHeadingLevel": 3
+    }
   },
+  "i18n": {
+    "defaultLocale": "en",
+    "locales": [
+      "en",
+      "np"
+    ],
+    "localeConfigs": {
+      "en": {
+        "label": "English",
+        "direction": "ltr"
+      },
+      "np": {
+        "label": "Nepali",
+        "direction": "ltr"
+      }
+    },
+    "path": "i18n"
+  },
+  "presets": [
+    [
+      "@docusaurus/preset-classic",
+      {
+        "docs": {
+          "sidebarPath": "/Users/shivramsaud/Desktop/demoRnD/sidebars.js",
+          "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/",
+          "includeCurrentVersion": true,
+          "showLastUpdateTime": true,
+          "showLastUpdateAuthor": true
+        },
+        "blog": {
+          "showReadingTime": true,
+          "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/",
+          "postsPerPage": 3,
+          "feedOptions": {
+            "type": "all",
+            "language": "es",
+            "copyright": "Copyright © 2024 Almis, Inc."
+          }
+        },
+        "theme": {
+          "customCss": "/Users/shivramsaud/Desktop/demoRnD/src/css/custom.css"
+        }
+      }
+    ]
+  ],
   "baseUrlIssueBanner": true,
-  "onBrokenAnchors": "warn",
+  "onBrokenMarkdownLinks": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"
@@ -693,7 +320,6 @@ export default {
   "customFields": {},
   "plugins": [],
   "themes": [],
-  "presets": [],
   "scripts": [],
   "headTags": [],
   "stylesheets": [],
@@ -701,12 +327,6 @@ export default {
   "titleDelimiter": "|",
   "noIndex": false,
   "markdown": {
-    "format": "mdx",
-    "mermaid": false,
-    "mdx1Compat": {
-      "comments": true,
-      "admonitions": true,
-      "headingIds": true
-    }
+    "mermaid": false
   }
 };

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "training/awe-101",
+  "id": "version-4.3.0/training/awe-101",
+  "title": "awe-101 Your first AWE App",
+  "description": "Introduction",
+  "source": "@site/versioned_docs/version-4.3.0/training/awe-101.md",
+  "sourceDirName": "training",
+  "slug": "/training/awe-101",
+  "permalink": "/docs/training/awe-101",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/training/awe-101.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "awe-101",
+    "title": "awe-101 Your first AWE App"
+  },
+  "sidebar": "version-4.3.0/training",
+  "next": {
+    "title": "awe-102 Windows design",
+    "permalink": "/docs/training/awe-102"
+  }
+}

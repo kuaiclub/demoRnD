@@ -1,0 +1,31 @@
+{
+  "unversionedId": "application-options",
+  "id": "application-options",
+  "title": "Application Options",
+  "description": "Application options are a way to add property values via database. Application options",
+  "source": "@site/docs/application-options.md",
+  "sourceDirName": ".",
+  "slug": "/application-options",
+  "permalink": "/docs/next/application-options",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/application-options.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "application-options",
+    "title": "Application Options",
+    "sidebar_label": "Application Options"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Properties",
+    "permalink": "/docs/next/properties"
+  },
+  "next": {
+    "title": "Session config",
+    "permalink": "/docs/next/session"
+  }
+}

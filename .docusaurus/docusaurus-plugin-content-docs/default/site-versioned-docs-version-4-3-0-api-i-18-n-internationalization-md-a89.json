@@ -1,0 +1,26 @@
+{
+  "unversionedId": "api/i18n-internationalization",
+  "id": "version-4.3.0/api/i18n-internationalization",
+  "title": "i18n-internationalization",
+  "description": "AWE implements a i18n system for internationalization of web applications. For this reason, AWE uses locale files containing literals in different languages.",
+  "source": "@site/versioned_docs/version-4.3.0/api/i18n-internationalization.md",
+  "sourceDirName": "api",
+  "slug": "/api/i18n-internationalization",
+  "permalink": "/docs/api/i18n-internationalization",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/api/i18n-internationalization.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "i18n-internationalization",
+    "Title": "I18N (Internationalization)"
+  },
+  "sidebar": "version-4.3.0/docs",
+  "previous": {
+    "title": "Email definition",
+    "permalink": "/docs/api/email"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "unversionedId": "api/dependencies",
+  "id": "api/dependencies",
+  "title": "Dependencies",
+  "description": "Each component (criterion, grid, chart, etc) can have some dependencies inside affecting its behaviour and contents. A dependency can be launched depending on component conditions or events.",
+  "source": "@site/docs/api/dependencies.md",
+  "sourceDirName": "api",
+  "slug": "/api/dependencies",
+  "permalink": "/docs/next/api/dependencies",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/api/dependencies.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "dependencies",
+    "title": "Dependencies"
+  },
+  "sidebar": "screens",
+  "previous": {
+    "title": "Actions",
+    "permalink": "/docs/next/api/actions"
+  },
+  "next": {
+    "title": "Icons",
+    "permalink": "/docs/next/api/icons"
+  }
+}

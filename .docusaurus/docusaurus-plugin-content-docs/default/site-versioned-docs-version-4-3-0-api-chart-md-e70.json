@@ -1,0 +1,30 @@
+{
+  "unversionedId": "api/chart",
+  "id": "version-4.3.0/api/chart",
+  "title": "Charts",
+  "description": "AWE uses Highcharts library for chart development. This javascript library allows build many types of dynamic graphics easily, quickly and flexibly. It has no dependencies on any other library. It´s compatible with most current browsers and has high performance.",
+  "source": "@site/versioned_docs/version-4.3.0/api/chart.md",
+  "sourceDirName": "api",
+  "slug": "/api/chart",
+  "permalink": "/docs/api/chart",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/api/chart.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "chart",
+    "title": "Charts"
+  },
+  "sidebar": "version-4.3.0/screens",
+  "previous": {
+    "title": "Dialog",
+    "permalink": "/docs/api/dialog"
+  },
+  "next": {
+    "title": "Actions",
+    "permalink": "/docs/api/actions"
+  }
+}

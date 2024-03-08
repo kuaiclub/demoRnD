@@ -1,0 +1,30 @@
+{
+  "unversionedId": "api/window",
+  "id": "version-4.3.0/api/window",
+  "title": "Window",
+  "description": "A window is a container with a title bar. It also can be maximized or restored, and it's very useful to sort groups of components in the screen.",
+  "source": "@site/versioned_docs/version-4.3.0/api/window.md",
+  "sourceDirName": "api",
+  "slug": "/api/window",
+  "permalink": "/docs/api/window",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/api/window.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "window",
+    "title": "Window"
+  },
+  "sidebar": "version-4.3.0/screens",
+  "previous": {
+    "title": "Tag",
+    "permalink": "/docs/api/tags"
+  },
+  "next": {
+    "title": "Resizable",
+    "permalink": "/docs/api/resizable"
+  }
+}

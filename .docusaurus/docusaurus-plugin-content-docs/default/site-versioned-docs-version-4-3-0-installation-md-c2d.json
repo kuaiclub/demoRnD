@@ -1,0 +1,30 @@
+{
+  "unversionedId": "installation",
+  "id": "version-4.3.0/installation",
+  "title": "Installation",
+  "description": "To install an AWE-based application just deploy it on an application server, like Apache Tomcat, Wildfly (old JBoss) or IBM WebSphere",
+  "source": "@site/versioned_docs/version-4.3.0/installation.md",
+  "sourceDirName": ".",
+  "slug": "/installation",
+  "permalink": "/docs/installation",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/installation.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "installation",
+    "title": "Installation"
+  },
+  "sidebar": "version-4.3.0/docs",
+  "previous": {
+    "title": "Security",
+    "permalink": "/docs/security"
+  },
+  "next": {
+    "title": "Maven",
+    "permalink": "/docs/maven"
+  }
+}

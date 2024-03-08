@@ -1,0 +1,30 @@
+{
+  "unversionedId": "api/button",
+  "id": "version-4.3.0/api/button",
+  "title": "Button",
+  "description": "A button is a graphical control element that provides the user a simple way to trigger an event, like searching for a query, or to interact with dialog boxes, like confirming an action.",
+  "source": "@site/versioned_docs/version-4.3.0/api/button.md",
+  "sourceDirName": "api",
+  "slug": "/api/button",
+  "permalink": "/docs/api/button",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/api/button.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "button",
+    "title": "Button"
+  },
+  "sidebar": "version-4.3.0/screens",
+  "previous": {
+    "title": "Resizable",
+    "permalink": "/docs/api/resizable"
+  },
+  "next": {
+    "title": "Criteria",
+    "permalink": "/docs/api/criteria"
+  }
+}

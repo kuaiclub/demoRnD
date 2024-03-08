@@ -1,0 +1,30 @@
+{
+  "unversionedId": "api/dialog",
+  "id": "version-4.3.0/api/dialog",
+  "title": "Dialog",
+  "description": "A dialog is a graphical item that provides the functionality of showing a modal window with a selected message and title (and an icon, if you want). A dialog should be associated to a button-action with type \"dialog\" (See button actions).",
+  "source": "@site/versioned_docs/version-4.3.0/api/dialog.md",
+  "sourceDirName": "api",
+  "slug": "/api/dialog",
+  "permalink": "/docs/api/dialog",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/api/dialog.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "dialog",
+    "title": "Dialog"
+  },
+  "sidebar": "version-4.3.0/screens",
+  "previous": {
+    "title": "Include",
+    "permalink": "/docs/api/include"
+  },
+  "next": {
+    "title": "Charts",
+    "permalink": "/docs/api/chart"
+  }
+}

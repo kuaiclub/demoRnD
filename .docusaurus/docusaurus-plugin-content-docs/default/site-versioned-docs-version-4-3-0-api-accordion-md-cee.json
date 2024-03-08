@@ -1,0 +1,30 @@
+{
+  "unversionedId": "api/accordion",
+  "id": "version-4.3.0/api/accordion",
+  "title": "Accordion",
+  "description": "An accordion is a layout component that allows to organize the content in different sections that can be collapsed or expanded.  Inside its panels, it allows to have the same content as a window or a tag element, even nested accordions.",
+  "source": "@site/versioned_docs/version-4.3.0/api/accordion.md",
+  "sourceDirName": "api",
+  "slug": "/api/accordion",
+  "permalink": "/docs/api/accordion",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/api/accordion.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "accordion",
+    "title": "Accordion"
+  },
+  "sidebar": "version-4.3.0/screens",
+  "previous": {
+    "title": "Wizard and Wizard panel",
+    "permalink": "/docs/api/wizard-and-wizard-panel"
+  },
+  "next": {
+    "title": "Grids",
+    "permalink": "/docs/api/grids"
+  }
+}

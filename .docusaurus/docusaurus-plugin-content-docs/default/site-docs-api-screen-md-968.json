@@ -1,0 +1,26 @@
+{
+  "unversionedId": "api/screen",
+  "id": "api/screen",
+  "title": "Screen Element",
+  "description": "The screen is the container tag for all screen components. In this tag you have to define the JSP template the screen is going to render, the screen title (label), and some other features like the target, which is a list of queries to launch that will fill the criteria values.",
+  "source": "@site/docs/api/screen.md",
+  "sourceDirName": "api",
+  "slug": "/api/screen",
+  "permalink": "/docs/next/api/screen",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/api/screen.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "screen",
+    "title": "Screen Element"
+  },
+  "sidebar": "screens",
+  "next": {
+    "title": "Template",
+    "permalink": "/docs/next/api/template"
+  }
+}

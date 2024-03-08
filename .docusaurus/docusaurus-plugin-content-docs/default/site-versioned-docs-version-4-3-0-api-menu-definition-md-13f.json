@@ -1,0 +1,30 @@
+{
+  "unversionedId": "api/menu",
+  "id": "version-4.3.0/api/menu",
+  "title": "Menu definition",
+  "description": "Navigation menu for an AWE application is defined in XML files. The two menu XML files are:",
+  "source": "@site/versioned_docs/version-4.3.0/api/menu-definition.md",
+  "sourceDirName": "api",
+  "slug": "/api/menu",
+  "permalink": "/docs/api/menu",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/api/menu-definition.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "menu",
+    "title": "Menu definition"
+  },
+  "sidebar": "version-4.3.0/docs",
+  "previous": {
+    "title": "Screen Definition",
+    "permalink": "/docs/api/screens"
+  },
+  "next": {
+    "title": "Enumerate definition",
+    "permalink": "/docs/api/enumerate"
+  }
+}

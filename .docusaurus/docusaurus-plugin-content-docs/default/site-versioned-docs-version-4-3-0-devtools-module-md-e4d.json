@@ -1,0 +1,30 @@
+{
+  "unversionedId": "developer-tools",
+  "id": "version-4.3.0/developer-tools",
+  "title": "DevTools Module",
+  "description": "This module has some very useful management tools to manage server resources:",
+  "source": "@site/versioned_docs/version-4.3.0/devtools-module.md",
+  "sourceDirName": ".",
+  "slug": "/developer-tools",
+  "permalink": "/docs/developer-tools",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/devtools-module.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "developer-tools",
+    "title": "DevTools Module"
+  },
+  "sidebar": "version-4.3.0/docs",
+  "previous": {
+    "title": "Annotations Module",
+    "permalink": "/docs/annotations"
+  },
+  "next": {
+    "title": "Builder Module",
+    "permalink": "/docs/builder"
+  }
+}

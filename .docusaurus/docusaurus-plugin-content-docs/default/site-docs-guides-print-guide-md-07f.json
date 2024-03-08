@@ -1,0 +1,31 @@
+{
+  "unversionedId": "guides/print-engine",
+  "id": "guides/print-engine",
+  "title": "Print engine",
+  "description": "AWE has a generic printing engine in order to print the content of a screen. This printing engine allows printing the content of a screen in pdf, excel and doc formats.",
+  "source": "@site/docs/guides/print-guide.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/print-engine",
+  "permalink": "/docs/next/guides/print-engine",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/guides/print-guide.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "print-engine",
+    "title": "Print engine",
+    "sidebar_label": "Print engine"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Selenium Tests",
+    "permalink": "/docs/next/guides/selenium-testing"
+  },
+  "next": {
+    "title": "Debugging",
+    "permalink": "/docs/next/guides/debugging"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "unversionedId": "logging",
+  "id": "logging",
+  "title": "Logging",
+  "description": "AWE framework uses Logback for all internal logging but you can configure your project to use other libraries like JUL or Log4j2.",
+  "source": "@site/docs/logging.md",
+  "sourceDirName": ".",
+  "slug": "/logging",
+  "permalink": "/docs/next/logging",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/logging.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "logging",
+    "title": "Logging",
+    "sidebar_label": "Logging"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Session config",
+    "permalink": "/docs/next/session"
+  },
+  "next": {
+    "title": "Deployment",
+    "permalink": "/docs/next/deployment"
+  }
+}

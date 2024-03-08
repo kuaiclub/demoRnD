@@ -1,0 +1,234 @@
+{
+  "blogPosts": [
+    {
+      "id": "/2023/09/08/awe-spring-boot-3",
+      "metadata": {
+        "permalink": "/np/blog/2023/09/08/awe-spring-boot-3",
+        "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/blog/2023-09-08-awe-spring-boot-3.md",
+        "source": "@site/blog/2023-09-08-awe-spring-boot-3.md",
+        "title": "AWE get Spring Boot 3",
+        "description": "<img style={{ width \"10% 20%\", padding: \"50\" }}",
+        "date": "2023-09-08T00:00:00.000Z",
+        "formattedDate": "September 8, 2023",
+        "tags": [
+          {
+            "label": "awe",
+            "permalink": "/np/blog/tags/awe"
+          },
+          {
+            "label": "spring",
+            "permalink": "/np/blog/tags/spring"
+          },
+          {
+            "label": "spring boot 3",
+            "permalink": "/np/blog/tags/spring-boot-3"
+          },
+          {
+            "label": "novedad",
+            "permalink": "/np/blog/tags/novedad"
+          }
+        ],
+        "readingTime": 0.62,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Pablo Vidal",
+            "title": "Senior Software Engineer @ Almis",
+            "url": "https://gitlab.com/limkin",
+            "imageURL": "https://gitlab.com/uploads/-/system/user/avatar/3234812/avatar.png?width=400"
+          }
+        ],
+        "frontMatter": {
+          "title": "AWE get Spring Boot 3",
+          "author": "Pablo Vidal",
+          "author_title": "Senior Software Engineer @ Almis",
+          "author_url": "https://gitlab.com/limkin",
+          "author_image_url": "https://gitlab.com/uploads/-/system/user/avatar/3234812/avatar.png?width=400",
+          "tags": [
+            "awe",
+            "spring",
+            "spring boot 3",
+            "novedad"
+          ]
+        },
+        "nextItem": {
+          "title": "Two-factor authentication",
+          "permalink": "/np/blog/2022/02/24/two-factor-authentication"
+        }
+      },
+      "content": "<img style={{ width: \"60%\", margin: \"10% 20%\", padding: \"50\" }} \n    alt=\"Spring Boot 3\" \n    src={require('@docusaurus/useBaseUrl').default('img/blog/spring-boot-3.png')}\n/>\n\nThe AWE framework team is pleased to announce that starting with version 4.7.1, \nAWE will use the Spring Boot 3 and Spring 6 version as a base image. \nIn this way, we will be prepared for new functionalities, greater security and of course, better maintenance.\n\nThis version requires us to use **Java 17**, so you have to take this into account if you want to use the new version of AWE.\n\nTo see more information about the new features of Spring Boot 3, you can see it on [this link](https://www.baeldung.com/spring-boot-3-spring-6-new).\n\nNext, we leave you the [migration guide](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.0-Migration-Guide) for AWE applications that use the new version of Spring Boot 3."
+    },
+    {
+      "id": "/2022/02/24/two-factor-authentication",
+      "metadata": {
+        "permalink": "/np/blog/2022/02/24/two-factor-authentication",
+        "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/blog/2022-02-24-two-factor-authentication.md",
+        "source": "@site/blog/2022-02-24-two-factor-authentication.md",
+        "title": "Two-factor authentication",
+        "description": "<img style={{ width \"10% 20%\", padding: \"50\" }}",
+        "date": "2022-02-24T00:00:00.000Z",
+        "formattedDate": "February 24, 2022",
+        "tags": [
+          {
+            "label": "awe",
+            "permalink": "/np/blog/tags/awe"
+          },
+          {
+            "label": "2fa",
+            "permalink": "/np/blog/tags/2-fa"
+          },
+          {
+            "label": "seguridad",
+            "permalink": "/np/blog/tags/seguridad"
+          },
+          {
+            "label": "novedad",
+            "permalink": "/np/blog/tags/novedad"
+          }
+        ],
+        "readingTime": 0.415,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Pablo García",
+            "title": "Senior Software Engineer @ Almis",
+            "url": "https://gitlab.com/pablo.garcia.almis",
+            "imageURL": "https://gitlab.com/uploads/-/system/user/avatar/3234791/avatar.png?width=400"
+          }
+        ],
+        "frontMatter": {
+          "title": "Two-factor authentication",
+          "author": "Pablo García",
+          "author_title": "Senior Software Engineer @ Almis",
+          "author_url": "https://gitlab.com/pablo.garcia.almis",
+          "author_image_url": "https://gitlab.com/uploads/-/system/user/avatar/3234791/avatar.png?width=400",
+          "tags": [
+            "awe",
+            "2fa",
+            "seguridad",
+            "novedad"
+          ]
+        },
+        "prevItem": {
+          "title": "AWE get Spring Boot 3",
+          "permalink": "/np/blog/2023/09/08/awe-spring-boot-3"
+        },
+        "nextItem": {
+          "title": "Notification module",
+          "permalink": "/np/blog/2021/01/01/notification-module"
+        }
+      },
+      "content": "<img style={{ width: \"60%\", margin: \"10% 20%\", padding: \"50\" }} \n    alt=\"TOTP Code\" \n    src={require('@docusaurus/useBaseUrl').default('img/totp-code.png')}\n/>\n\nWe have added a new security function to our framework: **Two-factor authentication**.\n\nThis development adds the possibility to enable an extra authentication factor based on apps like **Google Authenticator** to\nenter the application. We have also added the possibility to force all the users to activate this second factor to improve\naccess security.\n\nTo see more information about this new functionality, you can read about it on [this link](/docs/security#two-factor-authentication-2fa)"
+    },
+    {
+      "id": "/2021/01/01/notification-module",
+      "metadata": {
+        "permalink": "/np/blog/2021/01/01/notification-module",
+        "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/blog/2021-01-01-notification-module.md",
+        "source": "@site/blog/2021-01-01-notification-module.md",
+        "title": "Notification module",
+        "description": "<img style={{ width \"10% 20%\" }}",
+        "date": "2021-01-01T00:00:00.000Z",
+        "formattedDate": "January 1, 2021",
+        "tags": [
+          {
+            "label": "awe",
+            "permalink": "/np/blog/tags/awe"
+          },
+          {
+            "label": "notificación",
+            "permalink": "/np/blog/tags/notificacion"
+          },
+          {
+            "label": "subscripción",
+            "permalink": "/np/blog/tags/subscripcion"
+          },
+          {
+            "label": "novedad",
+            "permalink": "/np/blog/tags/novedad"
+          }
+        ],
+        "readingTime": 0.38,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Pablo García",
+            "title": "Senior Software Engineer @ Almis",
+            "url": "https://gitlab.com/pablo.garcia.almis",
+            "imageURL": "https://gitlab.com/uploads/-/system/user/avatar/3234791/avatar.png?width=400"
+          }
+        ],
+        "frontMatter": {
+          "title": "Notification module",
+          "author": "Pablo García",
+          "author_title": "Senior Software Engineer @ Almis",
+          "author_url": "https://gitlab.com/pablo.garcia.almis",
+          "author_image_url": "https://gitlab.com/uploads/-/system/user/avatar/3234791/avatar.png?width=400",
+          "tags": [
+            "awe",
+            "notificación",
+            "subscripción",
+            "novedad"
+          ]
+        },
+        "prevItem": {
+          "title": "Two-factor authentication",
+          "permalink": "/np/blog/2022/02/24/two-factor-authentication"
+        },
+        "nextItem": {
+          "title": "swagatam to AWE Blog",
+          "permalink": "/np/blog/2020/08/26/welcome"
+        }
+      },
+      "content": "<img style={{ width: \"60%\", margin: \"10% 20%\" }}\nalt=\"AWE security\"\nsrc={require('@docusaurus/useBaseUrl').default('img/undraw_notifications.svg')}\n/>\n\n`AWE Framework` now has a new _module_: **Notification module**.\n\nThis module allows _very easily_ to create new topics and publish notifications over them.\n\nWe also have developed a new `settings` screen to allow the user to subscribe to topics which he or she prefers via **notification** or **email**.\n\nTo see more information about this new functionality, you can read about it on [this link](/docs/guides/notifier)"
+    },
+    {
+      "id": "/2020/08/26/welcome",
+      "metadata": {
+        "permalink": "/np/blog/2020/08/26/welcome",
+        "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/blog/2020-08-26-welcome.md",
+        "source": "@site/i18n/np/docusaurus-plugin-content-blog/2020-08-26-welcome.md",
+        "title": "swagatam to AWE Blog",
+        "description": "<img style={{ width \"10% 25%\", padding: \"50\" }}",
+        "date": "2020-08-26T00:00:00.000Z",
+        "formattedDate": "August 26, 2020",
+        "tags": [
+          {
+            "label": "awe",
+            "permalink": "/np/blog/tags/awe"
+          },
+          {
+            "label": "hola",
+            "permalink": "/np/blog/tags/hola"
+          }
+        ],
+        "readingTime": 0.265,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Pablo Vidal",
+            "title": "Senior Software Engineer @ Almis",
+            "url": "https://gitlab.com/Limkin",
+            "imageURL": "https://gitlab.com/uploads/-/system/user/avatar/3234812/avatar.png?width=400"
+          }
+        ],
+        "frontMatter": {
+          "title": "swagatam to AWE Blog",
+          "author": "Pablo Vidal",
+          "author_title": "Senior Software Engineer @ Almis",
+          "author_url": "https://gitlab.com/Limkin",
+          "author_image_url": "https://gitlab.com/uploads/-/system/user/avatar/3234812/avatar.png?width=400",
+          "tags": [
+            "awe",
+            "hola"
+          ]
+        },
+        "prevItem": {
+          "title": "Notification module",
+          "permalink": "/np/blog/2021/01/01/notification-module"
+        }
+      },
+      "content": "<img style={{ width: \"50%\", margin: \"10% 25%\", padding: \"50\" }} \n    alt=\"Awe Logo\" \n    src={require('@docusaurus/useBaseUrl').default('img/logo.svg')}\n/>\n\nFrom `swagatam` team we want to welcome you and open this new communication channel to everyone.\n\nWe will publish `AWE framework` news as well as tutorials and other interesting things related to web application development.\n\nSo, **welcome aboard!** :smile:"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "unversionedId": "api/template",
+  "id": "api/template",
+  "title": "Template",
+  "description": "A template is a JSP file which contains a link between the AWE engine and the XML descriptor. Those links are called source points. Each JSP template has one or more source points. These source points are the places where our generated code in the XML descriptor will be located once each page is generated.",
+  "source": "@site/docs/api/template.md",
+  "sourceDirName": "api",
+  "slug": "/api/template",
+  "permalink": "/docs/next/api/template",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/api/template.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "template",
+    "title": "Template"
+  },
+  "sidebar": "screens",
+  "previous": {
+    "title": "Screen Element",
+    "permalink": "/docs/next/api/screen"
+  },
+  "next": {
+    "title": "Layout",
+    "permalink": "/docs/next/api/layout"
+  }
+}

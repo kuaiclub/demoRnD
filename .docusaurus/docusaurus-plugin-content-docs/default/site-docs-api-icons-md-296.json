@@ -1,0 +1,27 @@
+{
+  "unversionedId": "api/icons",
+  "id": "api/icons",
+  "title": "icons",
+  "description": "AWE has included some icons families to be used on components and grids.",
+  "source": "@site/docs/api/icons.md",
+  "sourceDirName": "api",
+  "slug": "/api/icons",
+  "permalink": "/docs/next/api/icons",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/api/icons.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "icons",
+    "Title": "Icons",
+    "sidebar_label": "Icons"
+  },
+  "sidebar": "screens",
+  "previous": {
+    "title": "Dependencies",
+    "permalink": "/docs/next/api/dependencies"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "unversionedId": "annotations",
+  "id": "annotations",
+  "title": "Annotations Module",
+  "description": "The annotations module includes a set of Spring-oriented annotations to make it easier to manage some AWE features.",
+  "source": "@site/docs/annotations-module.md",
+  "sourceDirName": ".",
+  "slug": "/annotations",
+  "permalink": "/docs/next/annotations",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/annotations-module.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "annotations",
+    "title": "Annotations Module",
+    "sidebar_label": "Annotations Module"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Maven",
+    "permalink": "/docs/next/maven"
+  },
+  "next": {
+    "title": "Developer Module",
+    "permalink": "/docs/next/developer"
+  }
+}

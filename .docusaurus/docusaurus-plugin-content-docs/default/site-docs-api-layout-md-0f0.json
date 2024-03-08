@@ -1,0 +1,30 @@
+{
+  "unversionedId": "api/layout",
+  "id": "api/layout",
+  "title": "Layout",
+  "description": "AWE layout service helps the developer to position the screen layers taking advantage of all the screen size. There are two ways of 'expanding' the layout:",
+  "source": "@site/docs/api/layout.md",
+  "sourceDirName": "api",
+  "slug": "/api/layout",
+  "permalink": "/docs/next/api/layout",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/api/layout.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "layout",
+    "title": "Layout"
+  },
+  "sidebar": "screens",
+  "previous": {
+    "title": "Template",
+    "permalink": "/docs/next/api/template"
+  },
+  "next": {
+    "title": "Tag",
+    "permalink": "/docs/next/api/tags"
+  }
+}

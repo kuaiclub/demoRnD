@@ -1,0 +1,30 @@
+{
+  "unversionedId": "api/actions",
+  "id": "version-4.3.0/api/actions",
+  "title": "Actions",
+  "description": "To perform an action when we click a button, or a dependency is activated, we need to define a button-action or a dependency-action. The format of these actions is the next one:",
+  "source": "@site/versioned_docs/version-4.3.0/api/actions.md",
+  "sourceDirName": "api",
+  "slug": "/api/actions",
+  "permalink": "/docs/api/actions",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/api/actions.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "actions",
+    "title": "Actions"
+  },
+  "sidebar": "version-4.3.0/screens",
+  "previous": {
+    "title": "Charts",
+    "permalink": "/docs/api/chart"
+  },
+  "next": {
+    "title": "Dependencies",
+    "permalink": "/docs/api/dependencies"
+  }
+}

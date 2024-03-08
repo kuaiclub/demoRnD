@@ -1,0 +1,30 @@
+{
+  "unversionedId": "guides/debugging",
+  "id": "version-4.3.0/guides/debugging",
+  "title": "Debugging",
+  "description": "Debugging tools",
+  "source": "@site/versioned_docs/version-4.3.0/guides/debugging-guide.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/debugging",
+  "permalink": "/docs/guides/debugging",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/guides/debugging-guide.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "debugging",
+    "title": "Debugging"
+  },
+  "sidebar": "version-4.3.0/docs",
+  "previous": {
+    "title": "Print engine",
+    "permalink": "/docs/guides/print-engine"
+  },
+  "next": {
+    "title": "Validation",
+    "permalink": "/docs/guides/validation"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "unversionedId": "api/tags",
+  "id": "api/tags",
+  "title": "Tag",
+  "description": "Tags are basically HTML elements. They can be used to separate the different parts of the screen we want to generate.",
+  "source": "@site/docs/api/tags.md",
+  "sourceDirName": "api",
+  "slug": "/api/tags",
+  "permalink": "/docs/next/api/tags",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/api/tags.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "tags",
+    "title": "Tag"
+  },
+  "sidebar": "screens",
+  "previous": {
+    "title": "Layout",
+    "permalink": "/docs/next/api/layout"
+  },
+  "next": {
+    "title": "Window",
+    "permalink": "/docs/next/api/window"
+  }
+}

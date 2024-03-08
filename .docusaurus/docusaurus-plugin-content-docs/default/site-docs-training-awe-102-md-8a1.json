@@ -1,0 +1,31 @@
+{
+  "unversionedId": "training/awe-102",
+  "id": "training/awe-102",
+  "title": "awe-102 Windows design",
+  "description": "In this tutorial we will learn how to create screens with AWE and to layout the components needed for the screen as we wish.",
+  "source": "@site/docs/training/awe-102.md",
+  "sourceDirName": "training",
+  "slug": "/training/awe-102",
+  "permalink": "/docs/next/training/awe-102",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/training/awe-102.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "awe-102",
+    "title": "awe-102 Windows design",
+    "sidebar_label": "awe-102 Windows design"
+  },
+  "sidebar": "training",
+  "previous": {
+    "title": "awe-101 Your first AWE App",
+    "permalink": "/docs/next/training/awe-101"
+  },
+  "next": {
+    "title": "awe-103 Criteria, grids and charts",
+    "permalink": "/docs/next/training/awe-103"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "unversionedId": "api/query",
+  "id": "version-4.3.0/api/query",
+  "title": "Query definition",
+  "description": "The AWE query engine is used for querying data on external systems. It works as an interface.",
+  "source": "@site/versioned_docs/version-4.3.0/api/query-definition.md",
+  "sourceDirName": "api",
+  "slug": "/api/query",
+  "permalink": "/docs/api/query",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/api/query-definition.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "query",
+    "title": "Query definition"
+  },
+  "sidebar": "version-4.3.0/docs",
+  "previous": {
+    "title": "Enumerate definition",
+    "permalink": "/docs/api/enumerate"
+  },
+  "next": {
+    "title": "Maintain definition",
+    "permalink": "/docs/api/maintain"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "unversionedId": "guides/scheduler",
+  "id": "guides/scheduler",
+  "title": "Scheduler",
+  "description": "This document gives a minimum base to start with the AWE Scheduler module, and explains how to automate and schedule tasks inside AWE in a simple way.",
+  "source": "@site/docs/guides/scheduler-guide.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/scheduler",
+  "permalink": "/docs/next/guides/scheduler",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/guides/scheduler-guide.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "scheduler",
+    "title": "Scheduler",
+    "sidebar_label": "Scheduler"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Project Structure",
+    "permalink": "/docs/next/guides/project-structure"
+  },
+  "next": {
+    "title": "Notifications",
+    "permalink": "/docs/next/guides/notifier"
+  }
+}

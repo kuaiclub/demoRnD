@@ -1,0 +1,31 @@
+{
+  "unversionedId": "guides/notifier",
+  "id": "guides/notifier",
+  "title": "Notifications",
+  "description": "The notifier module improves AWE with a notification system. This system works the following way:",
+  "source": "@site/docs/guides/notifier-guide.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/notifier",
+  "permalink": "/docs/next/guides/notifier",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/guides/notifier-guide.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "notifier",
+    "title": "Notifications",
+    "sidebar_label": "Notifications"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Scheduler",
+    "permalink": "/docs/next/guides/scheduler"
+  },
+  "next": {
+    "title": "Selenium Tests",
+    "permalink": "/docs/next/guides/selenium-testing"
+  }
+}

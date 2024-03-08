@@ -1,0 +1,30 @@
+{
+  "unversionedId": "training/awe-106",
+  "id": "version-4.3.0/training/awe-106",
+  "title": "awe-106 Actions and dependencies",
+  "description": "In this tutorial we will see how to give some dynamism to the screen that we have developed. Thanks to actions and dependencies it is possible to make requests to the server, to modify the content of a component given the values of other components or to change the attributes of a criteria.",
+  "source": "@site/versioned_docs/version-4.3.0/training/awe-106.md",
+  "sourceDirName": "training",
+  "slug": "/training/awe-106",
+  "permalink": "/docs/training/awe-106",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/training/awe-106.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "awe-106",
+    "title": "awe-106 Actions and dependencies"
+  },
+  "sidebar": "version-4.3.0/training",
+  "previous": {
+    "title": "awe-105 Develop module",
+    "permalink": "/docs/training/awe-105"
+  },
+  "next": {
+    "title": "awe-107 Services",
+    "permalink": "/docs/training/awe-107"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "unversionedId": "training/awe-105",
+  "id": "version-4.3.0/training/awe-105",
+  "title": "awe-105 Develop module",
+  "description": "Developer module offers a series of tools designed to facilitate developer's tasks.",
+  "source": "@site/versioned_docs/version-4.3.0/training/awe-105.md",
+  "sourceDirName": "training",
+  "slug": "/training/awe-105",
+  "permalink": "/docs/training/awe-105",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/training/awe-105.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "awe-105",
+    "title": "awe-105 Develop module"
+  },
+  "sidebar": "version-4.3.0/training",
+  "previous": {
+    "title": "awe-104 Data retrieval and manipulation",
+    "permalink": "/docs/training/awe-104"
+  },
+  "next": {
+    "title": "awe-106 Actions and dependencies",
+    "permalink": "/docs/training/awe-106"
+  }
+}

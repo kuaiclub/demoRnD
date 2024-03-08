@@ -1,0 +1,30 @@
+{
+  "unversionedId": "api/context-menu",
+  "id": "api/context-menu",
+  "title": "Context menu",
+  "description": "Awe engine allows define context menu inside a grid, criterias or charts. With these menus, you can add functionality to your window.",
+  "source": "@site/docs/api/context-menu.md",
+  "sourceDirName": "api",
+  "slug": "/api/context-menu",
+  "permalink": "/docs/next/api/context-menu",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/api/context-menu.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "context-menu",
+    "title": "Context menu"
+  },
+  "sidebar": "screens",
+  "previous": {
+    "title": "Pivot Table",
+    "permalink": "/docs/next/api/pivot-table"
+  },
+  "next": {
+    "title": "Messages",
+    "permalink": "/docs/next/api/messages"
+  }
+}

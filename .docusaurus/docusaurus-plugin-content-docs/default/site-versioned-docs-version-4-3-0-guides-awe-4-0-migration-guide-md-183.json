@@ -1,0 +1,30 @@
+{
+  "unversionedId": "guides/v4-migration",
+  "id": "version-4.3.0/guides/v4-migration",
+  "title": "v4.0 Migration Guide",
+  "description": "Application Structure",
+  "source": "@site/versioned_docs/version-4.3.0/guides/awe-4.0-migration-guide.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/v4-migration",
+  "permalink": "/docs/guides/v4-migration",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/guides/awe-4.0-migration-guide.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "v4-migration",
+    "title": "v4.0 Migration Guide"
+  },
+  "sidebar": "version-4.3.0/docs",
+  "previous": {
+    "title": "Validation",
+    "permalink": "/docs/guides/validation"
+  },
+  "next": {
+    "title": "Default screens",
+    "permalink": "/docs/guides/default-screens"
+  }
+}

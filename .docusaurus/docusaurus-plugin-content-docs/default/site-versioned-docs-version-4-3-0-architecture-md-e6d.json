@@ -1,0 +1,30 @@
+{
+  "unversionedId": "architecture",
+  "id": "version-4.3.0/architecture",
+  "title": "Architecture",
+  "description": "Table of Contents",
+  "source": "@site/versioned_docs/version-4.3.0/architecture.md",
+  "sourceDirName": ".",
+  "slug": "/architecture",
+  "permalink": "/docs/architecture",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/architecture.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "architecture",
+    "title": "Architecture"
+  },
+  "sidebar": "version-4.3.0/docs",
+  "previous": {
+    "title": "Purpose",
+    "permalink": "/docs/purpose"
+  },
+  "next": {
+    "title": "Security",
+    "permalink": "/docs/security"
+  }
+}

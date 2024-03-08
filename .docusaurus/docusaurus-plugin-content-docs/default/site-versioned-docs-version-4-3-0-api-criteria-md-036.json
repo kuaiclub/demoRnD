@@ -1,0 +1,30 @@
+{
+  "unversionedId": "api/criteria",
+  "id": "version-4.3.0/api/criteria",
+  "title": "Criteria",
+  "description": "Criteria elements are window components which can get input from the user and send it to the application server (business logic).",
+  "source": "@site/versioned_docs/version-4.3.0/api/criteria.md",
+  "sourceDirName": "api",
+  "slug": "/api/criteria",
+  "permalink": "/docs/api/criteria",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/api/criteria.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "criteria",
+    "title": "Criteria"
+  },
+  "sidebar": "version-4.3.0/screens",
+  "previous": {
+    "title": "Button",
+    "permalink": "/docs/api/button"
+  },
+  "next": {
+    "title": "Tab and tabcontainer",
+    "permalink": "/docs/api/tab-and-tabcontainer"
+  }
+}

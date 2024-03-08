@@ -1,0 +1,31 @@
+{
+  "unversionedId": "api/service",
+  "id": "api/service",
+  "title": "Services Definition",
+  "description": "Service operations are designed to perform specific treatments and calculations out of the AWE utilities.",
+  "source": "@site/docs/api/service-definition.md",
+  "sourceDirName": "api",
+  "slug": "/api/service",
+  "permalink": "/docs/next/api/service",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/docs/api/service-definition.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "service",
+    "title": "Services Definition",
+    "sidebar_label": "Services Definition"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Maintain definition",
+    "permalink": "/docs/next/api/maintain"
+  },
+  "next": {
+    "title": "Queues definition",
+    "permalink": "/docs/next/api/queues"
+  }
+}

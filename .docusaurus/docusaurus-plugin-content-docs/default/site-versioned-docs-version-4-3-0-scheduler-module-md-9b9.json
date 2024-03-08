@@ -1,0 +1,30 @@
+{
+  "unversionedId": "scheduler",
+  "id": "version-4.3.0/scheduler",
+  "title": "Scheduler Module",
+  "description": "Scheduler module adds a powerful scheduling tool to your application",
+  "source": "@site/versioned_docs/version-4.3.0/scheduler-module.md",
+  "sourceDirName": ".",
+  "slug": "/scheduler",
+  "permalink": "/docs/scheduler",
+  "draft": false,
+  "editUrl": "https://gitlab.com/aweframework/awe/edit/master/website/versioned_docs/version-4.3.0/scheduler-module.md",
+  "tags": [],
+  "version": "4.3.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "scheduler",
+    "title": "Scheduler Module"
+  },
+  "sidebar": "version-4.3.0/docs",
+  "previous": {
+    "title": "Rest API Module",
+    "permalink": "/docs/rest"
+  },
+  "next": {
+    "title": "Notifier Module",
+    "permalink": "/docs/notifier"
+  }
+}
